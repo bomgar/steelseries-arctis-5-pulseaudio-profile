@@ -18,8 +18,8 @@ After that, plug in the device to see if it works.
 
 Install from by copying the following files:
 
-- `steelseries-arctis-5-output-game.conf` and `steelseries-arctis-5-output-chat.conf` to `/usr/share/pulseaudio/alsa-mixer/paths/`
-- `steelseries-arctis-5-usb-audio.conf` to `/usr/share/pulseaudio/alsa-mixer/profile-sets/`
+- `steelseries-arctis-5-output-game.conf` and `steelseries-arctis-5-output-chat.conf` to `/usr/share/alsa-card-profile/mixer/paths/`
+- `steelseries-arctis-5-usb-audio.conf` to `/usr/share/alsa-card-profile/mixer/paths/`
 - `91-pulseaudio-steelseries-arctis-5.rules` to `/lib/udev/rules.d/`
 
 Restart pulseaudio:
